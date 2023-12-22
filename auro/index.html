@@ -150,7 +150,7 @@
            class="interpolation-image"
            alt="Interpolate start reference image."/>
       <h3 class="subtitle has-text-centered">
-        Our proposed method demonstrates high performance on a variety of tasks. It is able to transfer to new robots in a data-efficient manner, while still keeping a high execution performance. It also accepts adding new behaviors to an existing trained policy. Besides them, we also demonstrate the ability to learn relational tasks, where there are two objects involved in the same sentence.
+        Our proposed method is an imitation learning method for language-conditioned robot policies. It demonstrates high performance on a variety of tasks. It is able to transfer to new robots in a data-efficient manner, while still keeping a high execution performance. It also accepts adding new behaviors to an existing trained policy. Besides them, we also demonstrate the ability to learn relational tasks, where there are two objects involved in the same sentence.
       </h3>
       <h3 class="subtitle has-text-centered">
         This work is related to CoRL 2022 paper <a href="https://languageforrobots.com">"Modularity through Attention"</a> and has been published on Autonomous Robotics (2023).
@@ -198,29 +198,39 @@
   </div>
 </section> -->
 
-
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="columns is-centered has-text-centered">
-      <h2 class="title is-3">Robot Executions</h2>
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Robot Executions</h2>
+      </div>
     </div>
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <img src="/static/images/auro/moreobj_27.gif" alt="transfer between robots" width="100%">
-          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-        </div>
-        <div class="item item-steve">
-          <img src="/static/images/auro/moreobj_0.gif" alt="transfer between robots" width="100%">
-          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-        </div>
-        <div class="item item-steve">
-          <img src="/static/images/auro/moreobj_7.gif" alt="transfer between robots" width="100%">
-          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-        </div>
-        <div class="item item-steve">
-          <img src="/static/images/auro/moreobj_28.gif" alt="transfer between robots" width="100%">
-          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <h3 class="title is-4">In Simulation</h3>
+      </div>
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-steve">
+            <img src="/static/images/auro/1obj_27.gif" alt="transfer between robots" width="100%">
+            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+          </div>
+          <div class="item item-steve">
+            <img src="/static/images/auro/1obj_0.gif" alt="transfer between robots" width="100%">
+            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+          </div>
+          <div class="item item-steve">
+            <img src="/static/images/auro/1obj_7.gif" alt="transfer between robots" width="100%">
+            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+          </div>
+          <div class="item item-steve">
+            <img src="/static/images/auro/1obj_28.gif" alt="transfer between robots" width="100%">
+            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -229,7 +239,30 @@
 
 
 
+
+
 <section class="section">
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">20 Real World Executions in a Row</h3>
+        <div class="publication-video">
+          <!-- <iframe src="https://youtu.be/UsRKEtDDhL0?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+          
+          <iframe width="606" height="455" src="https://www.youtube.com/embed/O3F7H7Xg5Sw" 
+                  title="20 task executions in a row" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen></iframe>
+          
+        </div>
+
+      </div>
+    </div>
+    <!--/ Paper video. -->
+
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
@@ -249,71 +282,6 @@
   </section>
 
 
-  <section class="hero is-light is-small">
-    <div class="hero-body">
-      <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Obstacle Avoidnace</h2>
-      </div>
-      <div class="container">
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-steve">
-            <img src="/static/images/auro/obstacle_1610.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/obstacle_1636.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/obstacle_1642.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/obstacle_1645.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/obstacle_1648.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
-  
-<section class="hero is-light is-small">
-  <div class="hero-body">
-
-
-
-
-      <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Relational Tasks</h2>
-      </div>
-      <div class="container">
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-steve">
-            <img src="/static/images/auro/obstacle_1610.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/2obj_vel_0.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/2obj_vel_5.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-          <div class="item item-steve">
-            <img src="/static/images/auro/2obj_vel_6.gif" alt="transfer between robots" width="100%">
-            <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   
 
 <section class="hero is-light is-small">
@@ -380,7 +348,9 @@
     <!-- Finetuning a Module -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Finetuning Trained Modules</h3>
+
+        <h2 class="title is-3">Experiments</h2>
+        <h3 class="title is-4">Transfer to New Robots by Finetuning Trained Modules</h3>
         <div class="content has-text-centered">
           <img src="/static/images/transfer_robots.gif"
             class="interpolation-image"
@@ -415,6 +385,74 @@
     </div>
     <!--/ Extended Hierarchy. -->
 
+  </div>
+</section>
+
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered">
+      <h3 class="title is-4">Obstacle Avoidnace</h3>
+    </div>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <img src="/static/images/auro/obstacle_1610.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/obstacle_1636.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/obstacle_1642.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/obstacle_1645.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/obstacle_1646.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</section>
+
+
+
+<section class="hero is-light is-small">
+<div class="hero-body">
+
+
+
+
+    <div class="columns is-centered has-text-centered">
+      <h3 class="title is-4">Relational Tasks</h3>
+    </div>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <img src="/static/images/auro/2obj_0.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/2obj_1.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/2obj_5.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+        <div class="item item-steve">
+          <img src="/static/images/auro/2obj_6.gif" alt="transfer between robots" width="100%">
+          <p>Our method is data-efficient for training and transfer. This is achieved by forming sub-modules through attention layers in a cascading manner.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
